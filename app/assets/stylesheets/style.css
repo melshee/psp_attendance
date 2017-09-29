@@ -1,0 +1,99 @@
+header {
+    /*
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: -1;
+*/
+    color: purple;
+    text-align: center;
+    margin: 0 30%;
+}
+
+img,
+table,
+form,
+input,
+video,
+audio,
+iform {
+    /*        width: 100%;*/
+    max-width: 100%;
+}
+
+
+/*
+#form {
+    margin: 0 30%;
+}
+*/
+
+form label {
+    position: block;
+    margin: 1.5% 0%;
+    color: purple;
+    margin: 1.5% 1%;
+}
+
+form input {
+    position: block;
+    margin: 1% 0%;
+}
+
+#on_time input {
+    position: block;
+    margin: 1% 1%;
+}
+
+
+/* no longer applies (changed to submit_tag)
+#submitBtn {
+    margin: 0 auto;
+    width: 100%;
+}
+*/
+
+
+/*
+#location {
+    margin: 0 30%;
+}
+*/
+
+#social a {
+    /*    display: inline;*/
+    margin: 0 auto;
+    /*    width: 50%;*/
+}
+
+footer {
+    color: purple;
+}
+
+
+/*/////// MEDIA ///////*/
+
+#links {
+    position: fixed;
+    top: 200px;
+    right: 20px;
+    width: 90 px;
+    z-index: 1;
+}
+
+#links a {
+    display: block;
+    width: 90px;
+    height: 40px;
+    background: yellow;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    padding: 10px;
+    background: #eee;
+    border-top: 1px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<!--    <link rel="stylesheet" href="css/style.css">-->
+    <title>Admin Login</title>
+</head>
+
+<body>
+
+    <h1>Admin Login</h1>
+
+    <form action="" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required> <br>
+
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" required> <br>
+        
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        
+        <%= submit_tag "Submit" %>
+    </form>
+
+    <!--Links-->
+    <%=  link_to 'Home', home_path %>
+</body>
+
+</html>

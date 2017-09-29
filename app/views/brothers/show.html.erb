@@ -1,0 +1,12 @@
+<h2><%= @brother.to_s %></h2>
+
+<h4>On time: 
+    <% if @brother.on_time == true %>
+        yes
+    <% else %>
+        no
+    <% end %>
+</h4>
+
+
+<h4>Email: <%= @brother.email %></h4>
